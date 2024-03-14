@@ -33,3 +33,22 @@ form button{
   font-size: 17px;
   border: 2px solid #40c60c;
 }
+
+.mouseOver{
+  background-color: #000000;
+  width: 50%;
+  margin: 50px auto;
+  height: 60px;
+  color: #ffffff;
+  border-radius: 6px;
+}
+
+.mouseOver:hover{
+  background-color: #000000;
+  opacity: .8;
+}
+
+.mouseOver h2{
+  text-align: center;
+  padding-top: 10px;
+}
