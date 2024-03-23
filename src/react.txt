@@ -1,0 +1,10 @@
+react props
+
+props (properties) - are the way react components use to communicate or pass informations
+react props allows the feed to pass data from one component to another, as parameter
+
+props are passed to the component using the props object
+react props can be spread in individually
+
+REACT HOOKS.
+-hooks allow functional component in react to have access to state and other react features

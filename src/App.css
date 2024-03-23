@@ -1,20 +1,27 @@
+.wrap{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10rem;
+}
+
 form{
   display: flex;
   flex-direction: column;
-  width: 50%;
+  width: 650px;
   margin: 4rem auto;
   gap: 1rem;
 }
 
 form input{
-  height: 40px;
+  height: 45px;
   border: 1px solid #000000 .2;
   border-radius: 4px;
 }
 
 
 form button{
-  height: 40px;
+  height: 45px;
   background: #40c60c;
   border: none;
   border-radius: 5px;
@@ -25,7 +32,7 @@ form button{
 .display{
   background-color: #000000;
   height: 50px;
-  width: 50%;
+  width: 650px;
   margin: -30px auto;
   color: #ffffff;
   border-radius: 2px;
@@ -51,4 +58,53 @@ form button{
 .mouseOver h2{
   text-align: center;
   padding-top: 10px;
+}
+
+.lang{
+  background-color: #40c60c;
+  border: 2px solid black;
+  width: 250px;
+  height: 200px;
+  display: flex;
+  flex-direction: column;
+}
+
+h2{
+  margin-left: 20px;
+  margin-top: auto;
+  color: #ffffff;
+}
+
+.counter {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  background: black;
+  margin: 50px auto 20px ;
+  width: 350px;
+  height: 200px;
+  border-radius: 10px;
+  border: 2px solid #0cd463;
+}
+
+.display-counter {
+  background: white;
+  color: black;
+  width: 300px;
+  height: 45px;
+  border-radius: 30px;
+  text-align: center;
+  font-size: 40px;
+  font-weight: 700;
+  padding-bottom: 10px;
+}
+
+button{
+  background: #0cd463;
+  width: 300px;
+  height: 45px;
+  border-radius: 30px;
+  border: 2px solid white;
 }
